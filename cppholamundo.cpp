@@ -22,8 +22,8 @@ int main() {
         total--;
 
     }
-    cout <<" hubo "<< contP <<" pares"<<endl;
-    cout <<" hubo "<< contI <<" impares"<<endl;
+    cout <<" hay "<< contP <<" pares"<<endl;
+    cout <<" hay "<< contI <<" impares"<<endl;
 
     return 0;
 }
