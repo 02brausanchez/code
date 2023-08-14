@@ -9,7 +9,7 @@ int main()
   string name;   
   lli numtarjeta; 
   int nip, secret; 
-  secret = 1545; 
+  secret = 1234; 
   int intentos = 0;
   int max_intentos = 4;
 
