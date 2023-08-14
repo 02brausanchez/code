@@ -19,7 +19,6 @@ int main() {
     y = (x + 5) / (2 * ( x + 1)); 
     z =  (pow( y , 2) + x) * ( x - 2 * y) / (x * y); 
     cout << z <<endl; 
-// 5 >= 
-
+ 
     return 0;
 }
