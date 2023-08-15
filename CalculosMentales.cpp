@@ -18,8 +18,8 @@ int main()
     cout <<fixed<< cub <<endl; 
  /*
     cout << sum << sqrt << div << cub <<endl;
-    la palabra fixed sirve para que tal cual muestre los numeros sin 
-    la notacion cientifica 
+    fixed sirve para mostrar los numeros sin la notacion cientifica 
+ 
  */
     return 0;
 }
