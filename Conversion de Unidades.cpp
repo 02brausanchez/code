@@ -15,7 +15,7 @@ angulo = angulo * pi/180;
 a = radio * cos(angulo);
 b = radio * sin(angulo);
 cout<<" El valor de x es: "<< a <<endl;
-cout<<" El valor de y es:"<< b <<endl;
+cout<<" El valor de y es: "<< b <<endl;
 cout<<" "<<endl;
 cout <<" Conversion de unidades cartesianas a polares "<<endl;
 cout <<" Ingresa el valor de x "<<endl;
