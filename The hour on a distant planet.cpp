@@ -13,13 +13,12 @@ using namespace std;
 
 int main() {
    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-   int  S,days,hours, minutes, seconds; 
-   cin >> S;
-
-   seconds = S % 50, S /= 50; 
-   minutes = S % 70, S /= 70; 
-   hours = S % 12, S/= 12;
-   days = S;
+   int  s,days,hours, minutes, seconds; 
+   cin >> s;
+   seconds = s % 50, s /= 50; 
+   minutes = s % 70, s /= 70; 
+   hours = s % 12, s/= 12;
+   days = s;
    cout << days <<" "<< hours <<" "<< minutes <<" "<< seconds <<endl;
     
    return 0;
