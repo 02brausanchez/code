@@ -6,6 +6,7 @@ using namespace std;
 int main ()
 {
     /*
+    
     float myfloat = 7.7f; 
     cout << myfloat <<"en potencia de 2 es:" << pow(myfloat, 2 ) <<endl;
      
