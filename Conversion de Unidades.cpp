@@ -6,7 +6,6 @@
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
     double radio, angulo;
     double a, b, x, y, r;
-
     cout <<" Conversion de unidades polares a cartesianas "<<endl;
     cout <<" Ingresa el radio "<<endl;
     cin >> radio;
@@ -28,8 +27,8 @@
     angulo = atan(y / x) * 180 / pi;
     }else{
       if(y > 0){
-        angulo = 90.0;
-        r = y;
+      angulo = 90.0;
+      r = y;
     }else if( y < 0){
       angulo  = 270;
       r = -y;
