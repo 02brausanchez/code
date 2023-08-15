@@ -1,10 +1,9 @@
 
 /* 
-    Formulas a evaluar: 
+    Formula a evaluar: 
     y = x + 5 / 2(x + 1 ) 
     z = y*y + x ( x - 2y) / xy
-    
-    Calcular el valor de z dado x 
+   *Calcular el valor de z dado x 
 
 */
 
