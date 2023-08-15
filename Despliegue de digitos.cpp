@@ -16,7 +16,7 @@ cout <<" Los digitos de: "<< num <<" son:"<<endl;
  cont += 1;
  num = trunc(num/10);
 }
- cout<<" num "<< num <<std::endl;
+ cout<<" num "<< num <<endl;
  cout<< num_orig <<" tiene "<< cont <<" digitos! "<<endl;
 
  return 0;
