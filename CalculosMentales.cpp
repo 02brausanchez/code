@@ -16,10 +16,10 @@ int main()
     cout <<fixed<< div <<endl; 
     cub = pow(div,3); 
     cout <<fixed<< cub <<endl; 
-    
-    //cout << sum << sqrt << div << cub <<endl;
-    // la palabra fixed sirve para que tal cual muestre los numeros sin 
-    // la notacion cientifica y ayude verlo de una manera menos compacta 
-
+ /*
+    cout << sum << sqrt << div << cub <<endl;
+    la palabra fixed sirve para que tal cual muestre los numeros sin 
+    la notacion cientifica 
+ */
     return 0;
 }
