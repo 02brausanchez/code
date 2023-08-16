@@ -21,7 +21,7 @@ int main() {
     cout << "Cuantos numeros quieres sumar con el ciclo for?"<<endl;
     cin >> n; 
     suma = 0;
-    cont = 1;
+    
     for (cont = 1; cont <= n; cont++)
     {
     cout << "Ingresa numero"<<endl;
