@@ -6,10 +6,10 @@ int main() {
     int n1, n2, cont;
     cin >> n1 >> n2; 
     cont = n1;           
-    do{                  //while(cont <= n2);               
-    cout << cont << endl;//cout << cont << endl;       
-    cont++;              //cont++;                      
-    }while(cont <=n2);
+    do{                   //while(cont <= n2);               
+    cout << cont << endl; //cout << cont << endl;       
+    cont++;               //cont++;                      
+    }while(cont <= n2);
     
     return 0;
 }
