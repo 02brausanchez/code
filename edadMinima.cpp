@@ -26,7 +26,7 @@ ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 int minAge;
 readStudentsAges();
 minAge = findMinimumAge(studentsAges, numStudents);
-  cout << minAge << endl;
+cout << minAge << endl;
 
  return  0;
 }
