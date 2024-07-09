@@ -1,0 +1,93 @@
+SEGUNDA SESION DE TALLER DE PYTHON 09/07/2024
+$$y=3x^3+x+6$$ 
+
+entero = 5
+print(type(entero))
+flotante = 5.13
+print(type(flotante)) 
+complejo = 4.3j 
+print(type(complejo)) 
+cadena_de_texto = "brau" 
+print(type(cadena_de_texto)) 
+lista = [1,2,3,4,5] 
+print(type(lista))
+tupla = (1,2,3,4)
+print(type(tupla))  
+
+# python orientados a objetos 
+# class -> modelo (objeto) variables 
+# en python las cosas son iterables  
+
+mis_variables = [entero,flotante,complejo,cadena_de_texto,lista,tupla] 
+for variable in mis_variables: # el nombre de variable es temporal para recorrer el for 
+    print(type(variable)) 
+
+
+mis_variables = [entero,flotante,complejo,cadena_de_texto,lista,tupla] 
+#mis_variables = ["uam", 20] 
+
+print(" caso 1 cuando el for itera de 0 a 3")  
+for variable in mis_variables: # el nombre de variable es temporal para recorrer el for 
+    print(type(variable))
+print(" ") 
+
+print("caso 2 cuando el for itera del reves de 3 a 0")  
+for variable2 in mis_variables[::-1]: 
+    print(type(variable2)) 
+print(" ") 
+
+print("caso 3 para escoger el indice de acuerdo")      
+for variable3 in mis_variables[3:1:-1]: 
+    print(type(variable3)) 
+
+
+new_lista = ['oso', 'lobo', 'gato','liebre'] 
+print(new_lista) 
+print(new_lista[0]) 
+print(new_lista[3]) 
+#lista[inicial:final+1] 
+print(new_lista [1:3]) 
+#lista[:final+1] 
+print(new_lista[:3]) 
+#lista[inicial] 
+print(new_lista[0:]) 
+#lista[:] 
+print(new_lista[:])
+#lista[:final-1] 
+print(new_lista[-1])
+#con paso de mas 2 
+print(new_lista[::2]) 
+print(new_lista[::-1]) 
+
+
+frase = "Dabale arroz a la zorra el abad" 
+frase_inv = frase[::-1] 
+print(frase_inv) 
+
+for i in range(1,9,2):
+    print(i) 
+
+print(" ") 
+
+# imprimiendo la tabla de 9 
+for i in range(1,10):  
+    print("9 x " ,i, "=", 9*i)  
+
+
+#cadenas de formato (f-Strings) 
+#f"...." f'
+#{variable} 
+valor = 4 
+print(f'9x{valor} = {valor*9}') 
+
+
+for i in range(1,10): 
+    print(f'9x{i} = {i*9}') 
+
+
+for i in range(1,10): 
+    print(f'9 x {i} = {i*9:2}') 
+
+
+
+
