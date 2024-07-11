@@ -1,0 +1,46 @@
+prueba2 = '54 x 27' 
+prueba2.split()
+
+5 in [1,2,3,4,5]
+
+9 in [1,2,3,4,5] 
+
+# prueba si la cadena corresponde a una operacion conocida 
+if '+' in prueba2: 
+    print('es una suma') 
+else: 
+    if 'x' in prueba2: 
+        print('es un producto') 
+    else: 
+        print('error') 
+
+# prueba si la cadena corresponde a una operacion conocida version 2  
+if '+' in prueba2: 
+    print('es una suma') 
+elif 'x' in prueba2: 
+    print('es un producto') 
+elif '-' in prueba2: 
+    print('es una resta') 
+elif '/' in prueba2: 
+    print('es una division')
+else:
+    print('error') 
+
+
+# cadena de operacion 
+operacion = "45/6" 
+
+if '+' in prueba2: 
+    operandos = operacion.split('+') 
+elif 'x' in prueba2: 
+    operandos = operacion.split('x') 
+elif '-' in prueba2: 
+    operandos = operacion.split('-') 
+elif '/' in prueba2: 
+    operandos = operacion.split('/') 
+else:
+    print('error') 
+print(operandos) 
+
+
+
