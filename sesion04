@@ -1,3 +1,12 @@
+len() 
+type() 
+print() 
+eval() 
+str.isnumeric() 
+str.split() 
+str.replace() 
+
+
 prueba2 = '54 x 27' 
 prueba2.split()
 
@@ -42,6 +51,137 @@ else:
     print('error') 
 print(operandos) 
 
+
+
+
+# cadena de la operacion 
+operacion = "8/6"
+# extrae los operandos
+
+if '+' in operacion: 
+    operandos = operacion.split('+') 
+elif 'x' in operacion: 
+    operandos = operacion.split('x') 
+elif '-' in operacion: 
+    operandos = operacion.split('-') 
+elif '/' in operacion: 
+    operandos = operacion.split('/') 
+else:
+    print('error')
+if len(operandos) == 2 and operandos[0].isnumeric() and operandos[1].isnumeric():     
+    print('ok') 
+
+print(operandos) 
+print(operandos[0].isnumeric()) 
+print(operandos[1].isnumeric()) 
+
+
+
+# cadena de la operacion 
+operacion = "8/6"
+# extrae los operandos
+
+if '+' in operacion: 
+    operandos = operacion.split('+') 
+elif 'x' in operacion: 
+    operandos = operacion.split('x') 
+elif '-' in operacion: 
+    operandos = operacion.split('-') 
+elif '/' in operacion: 
+    operandos = operacion.split('/') 
+else:
+    print('error')
+if len(operandos) == 2 and operandos[0].isnumeric() and operandos[1].isnumeric():     
+    print('ok') 
+else:
+    print('error') 
+    
+print(operandos) 
+print(operandos[0].isnumeric()) 
+print(operandos[1].isnumeric()) 
+
+
+
+# cadena de la operacion 
+valor = (input("Dame un valor que sea (+,-,*,/): "))
+
+# operacion = "8/6"
+# extrae los operandos
+
+if '+' in valor: 
+    operandos = valor.split('+') 
+elif '*' in valor : 
+    operandos = valor.split('*') 
+elif '-' in valor: 
+    operandos = valor.split('-') 
+elif '/' in valor: 
+    operandos = valor.split('/') 
+#else:
+    #print('error')
+if len(operandos) == 2 and operandos[0].isnumeric() and operandos[1].isnumeric():     
+    print(eval(valor)) 
+else:
+    print('error') 
+    
+print(operandos) 
+print(operandos[0].isnumeric()) 
+print(operandos[1].isnumeric()) 
+
+
+
+operador = ''
+operandos = [] 
+
+for op in '+ , - , x, ':
+    if op in valor: 
+        operardor = op
+        operandos = valor.split(operardor)
+    print(operardor) 
+    print(operandos) 
+
+
+
+##### version mejorada pero con algunos detalles: ##### 
+# cadena de la operacion 
+operacion  = (input("Dame un valor que sea (+,-,*,/): "))
+
+# operacion = "8/6"
+# extrae los operandos
+
+if '+' in operacion: 
+    operandos = operacion.split('+') 
+elif '*' in operacion : 
+    operandos = operacion.split('*') 
+elif '-' in operacion: 
+    operandos = operacion.split('-') 
+elif '/' in operacion: 
+    operandos = operacion.split('/') 
+else:
+    print('error')
+if len(operandos) == 2 and operandos[0].isnumeric() and operandos[1].isnumeric():     
+    res = eval(operacion)
+    print(f'{operacion} = {res}') 
+else:
+    print('error') 
+    
+print(operandos) 
+print(operandos[0].isnumeric()) 
+print(operandos[1].isnumeric()) 
+
+
+
+operador = ''
+operandos = [] 
+
+for op in '+-x/*':
+    if op in operacion: 
+        operardor = op
+        operandos = operacion.split(operardor)
+    print(operador) 
+    print(operandos) 
+
+
+operacion
 
 
 
