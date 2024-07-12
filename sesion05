@@ -1,0 +1,118 @@
+"""
+Expresiones regular
+\d
+\d.
+\d+
+[x+/-]
+
+Bibliotecas 
+
+"""
+
+"""
+else:
+    print(f'operandos u operacion equivocados: {operandos}') 
+else: 
+    print(f'operador desconocido: {operador}') 
+"""
+
+# Importar biblioteca [version odiosa] 
+import math 
+math.cos(3*math.pi/2) 
+
+
+# Importar biblioteca [version practica]
+#import numpy as np 
+
+
+import math as m  
+m.cos(3*m.pi/2) 
+
+
+# Importar biblioteca [version mejorada pero con algunos detalles] 
+from math import pi, cos 
+cos(3*pi/2) 
+
+
+# Importar biblioteca [version mejorada pero con algunos detalles] 
+from math import pi, cos 
+cos(3*pi/2) 
+
+
+#Que es lo que hace la fun cos 
+cos?
+
+
+#biblioteca de mate
+dir(math) 
+
+
+import numpy as np 
+dir(np) 
+
+
+
+lista = list(range(1,13,2)) 
+print(type(lista)) 
+arreglo = np.array(lista) 
+print(type(arreglo)) 
+
+
+
+
+# La biblioteca shape es para saber las dimensiones 
+print(arreglo.shape) 
+
+
+from random import random
+
+matriz = np.array([[random(), 4,6], [5.5,9.8, random()]]) 
+print(matriz) 
+print(matriz.shape) 
+
+
+from random import random
+
+matriz = np.array([[random(),4,np.sqrt(2)], [pi,9.8,random()]]) 
+print(matriz) 
+print(matriz.shape) 
+
+
+
+# sympy: Calculos simbolico (sympy gamma.com) 
+
+
+
+
+A = matriz
+print(A) 
+
+
+# Transponer A 
+B = A.T
+print(B) 
+
+
+# Multiplicar A por B simbolo para multiplicar matrices es con el  A@B
+C = A@B
+print(C) 
+
+
+# Para leer archivos de excel 
+import pandas as pd 
+
+
+tabla = pd.read_csv('Descargas/Lista-de-clientes-con-nombre-y-direccion.csv')
+
+tabla
+
+
+
+
+
+
+
+
+
+
+
