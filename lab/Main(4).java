@@ -32,7 +32,7 @@ public class Main {
     transpuesta = new int[a[0].length][a.length];
     //imprimir 
     for(int i = 0; i < transpuesta.length; i++){
-      for(int j = 0; j < transpuesta[i].length;j++){
+      for(int j = 0; j < transpuesta[i].length; j++){
         transpuesta[i][j] = a[j][i];
       }
     }
