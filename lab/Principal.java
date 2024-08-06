@@ -1,27 +1,20 @@
-package apaloo;
+package Ejemplos;
+import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-        Articulo oArticulo; 
-        Articulo pan; 
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] array = new int[n];
 
-        oArticulo = new Articulo(); // Se crea el objeto de la clase Articulo 
-        pan = oArticulo; // Se esta haciendo una referencia al mismo objeto  y esto se le llama clonar    
-        
-        // Para clonar que sea distinto de referencia 
-        pan = oArticulo.clonar();
+        for (int i = 0; i < n; i++) {
+            array[i] = sc.nextInt();
+        }
 
-        oArticulo.setPrecio((float)10.0);
-        oArticulo.setPrecio("20.2");
-        
-        //Ambos apuntan a lo mismo
-        System.out.println(oArticulo + " " + pan);
-        oArticulo.setPrecio("20.2");
-        System.out.println(pan.getPrecio());
-        System.out.println(oArticulo.getPrecio());
-        
+        Minimo_Maximo auto = new Minimo_Maximo(array, n);
 
-
-
+        System.out.println("["+auto.numMinimo()+","+auto.numMaximo()+"]");
+        sc.close();
     }
 }
+
